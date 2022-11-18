@@ -46,6 +46,33 @@ public class Main {
         else {
             System.out.println("Установите приложение, перейдя по ссылке");
         }
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println("//task3");
+
+
+         //task3"
+        int year = 2021;
+        boolean leapYear = ((year%4 ==0) && (year%100 != 0)||(year%400==0));
+        if (leapYear){
+            System.out.println(year + " год является високосным");
+        } else {
+            System.out.println( year + " год не является високосным");
+        }
+
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println("//task4");
+
+        //task4
+
+
+
+
+
+
+
+
 
 
 
