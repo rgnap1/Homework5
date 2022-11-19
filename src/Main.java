@@ -64,12 +64,21 @@ public class Main {
         System.out.println(" ");
         System.out.println("//task4");
 
+
+
         //task4
         int deliveryDistance = 95;
-        int deliveryDistance1Day = 20;
-        int deliveryDistance2Days = 60-20;
-        int deliveryDistance3Days = 100-60;
+        int deliveryTime = 1;
+        if (deliveryDistance<20){
+            System.out.println("Потребуется " + deliveryTime + " день доставки");
+        }else{
+            deliveryTime= deliveryTime+((deliveryDistance+20)/40);
+            System.out.println("Потребуется " + deliveryTime + " дней доставки");
+        }
 
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println("//task5");
 
 
 
