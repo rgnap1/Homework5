@@ -72,7 +72,7 @@ public class Main {
         if (deliveryDistance<20){
             System.out.println("Потребуется " + deliveryTime + " день доставки");
         }else{
-            deliveryTime= deliveryTime+((deliveryDistance+20)/40);
+            deliveryTime += (deliveryDistance+20)/40;
             System.out.println("Потребуется " + deliveryTime + " дней доставки");
         }
 
